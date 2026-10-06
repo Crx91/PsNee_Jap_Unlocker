@@ -1,9 +1,9 @@
-# PsNee_Aio
+# PsNee and JAP Bios Unlocker for Arduino with Atmega328p MCU
 The ultimate mod based on ![PsNee](https://github.com/kalymos/psnee) and my latest ![Jap_Bios_Unlocker](https://github.com/Crx91/Ps1_Jap_Bios_Unlocker).                   
 Unleash the power of your Ps1!
 
-My port for Arduino boards with Atmega328p MCU, Fully stealth and unlocker for all JAP PS1 BIOSes protection                                                                                         
-PSNee_Aio is the ultimate mod for the Playstation 1 console!
+This is a port of my PsNee_Aio for Arduino boards with Atmega328p MCU.
+Fully stealth mod and unlocks all JAP PS1 BIOSes protection.                                                                                         
 
 This mod patches ps1 JAP bios protection, allowing playing PAL and USA region games. My method uses a different approach instead of the one made by postal v8 PsNee (and kalymos upgrades).
 
@@ -19,7 +19,7 @@ My method instead, patches on the fly the bios line only when the game is recogn
 
 - Universal patching method for all BIOSes;
 - Wire lengths aren't an issue any more;
-- The *ino sketch can be uploaded to the Arduino without any need for an ICSP programmer and fuses (It works as is even with the bootloader!)
+- The *ino sketch can be uploaded to the Arduino without any need for an ICSP programmer and fuses settings (my code works even with bootloader startup delay!)
 
 I'm just a hobbyist programmer, so please forgive any coding mistakes, syntax errors, or other issues. Code is written using Arduino IDE and port manipulation for better speed!
 The main project based on the ch32v003 can be found ![HERE](https://github.com/Crx91/PsNee_Aio)
@@ -29,7 +29,8 @@ The main project based on the ch32v003 can be found ![HERE](https://github.com/C
 
 ## Prerequisites:
 - Only Arduino IDE
+- Any Arduino board with Atmega328p MCU
 
 ## HowTo:
 -	Download this repository.
--	Follow the [Wiki](https://github.com/Crx91/PsNee_Aio/wiki) instructions.
+-	Follow the [Wiki](https://github.com/Crx91/PsNee_Jap_Unlocker/wiki) instructions.
